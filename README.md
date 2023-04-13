@@ -1,59 +1,53 @@
+# AMIK KUMPLIT
 
-# teguh_iqbal_s_application1
-### Table of contents
-- [System requirements](#system-requirements)
-- [Figma design guidelines for better UI accuracy](#figma-design-guideline-for-better-accuracy)
-- [Check the UI of the entire app](#app-navigations)
-- [Application structure](#project-structure)
-- [How to format your code?](#how-you-can-do-code-formatting)
-- [How you can improve code readability?](#how-you-can-improve-the-readability-of-code)
-- [Libraries and tools used](#libraries-and-tools-used)
-- [Support](#support)
+### Teguh Iqbal (2142406) - UTS Mobile Programming
 
-### System requirements
+<img width="100%" alt="Group 101" src="https://user-images.githubusercontent.com/57865250/231753244-b8525638-4ebc-4da9-8c3c-349cf4af2baf.png">
 
-Dart SDK Version 2.18.0 or greater.
-Flutter SDK Version 3.3.0 or greater.
+Amik Kumplit adalah sebuah aplikasi kampus yang menyediakan berbagai kebutuhan pembelajaran, mulai dari tugas, nilai, materi, diskusi, ujian,dan masih banyak lagi.
 
-### Figma design guidelines for better UI accuracy
+Namun pada UTS kali ini saya berfokus pada pengembangan tampilan Tugas. dengan Total 7 halaman, yang meliputi Login, Beranda, List Tugas, Detail Tugas (terbagi menjadi 3 section), Buat Tugas
 
-Read our guidelines to increase the accuracy of design-to-code conversion by optimizing Figma designs.
-https://docs.dhiwise.com/docs/Designguidelines/intro
+<hr>
 
-### Check the UI of the entire app
+## Halaman Login
 
-Check the UI of all the app screens from a single place by setting up the 'initialRoute'  to AppNavigation in the AppRoutes.dart file.
+<img widht="90%" src="https://user-images.githubusercontent.com/57865250/231754166-ad4f7edb-09a3-487d-bedc-cbb1ed53e212.png">
 
-### Application structure
-After successful build, your application structure should look like this:
-                    
-```
-.
-├── android                         - It contains files required to run the application on an Android platform.
-├── assets                          - It contains all images and fonts of your application.
-├── ios                             - It contains files required to run the application on an iOS platform.
-├── lib                             - Most important folder in the application, used to write most of the Dart code..
-    ├── main.dart                   - Starting point of the application
-    ├── core
-    │   ├── app_export.dart         - It contains commonly used file imports
-    │   ├── constants               - It contains static constant class file
-    │   └── utils                   - It contains common files and utilities of the application
-    ├── presentation                - It contains widgets of the screens
-    ├── routes                      - It contains all the routes of the application
-    └── theme                       - It contains app theme and decoration classes
-    └── widgets                     - It contains all custom widget classes
-```
-### How to format your code?
+<hr>
 
-- if your code is not formatted then run following command in your terminal to format code
-  ```
-  dart format .
-  ```
+## Halaman Beranda
 
-### How you can improve code readability?
+<img widht="90%" src="https://user-images.githubusercontent.com/57865250/231754360-755b8c3f-981b-4a13-99fa-82924993f218.png">
 
-Resolve the errors and warnings that are shown in the application.
+<hr>
 
-### Support
+## Halaman List Tugas
 
-If you have any problems or questions, go to our Discord channel, where we will help you as quickly as possible: https://discord.com/invite/tCnjHth7wU
+<img widht="90%" src="https://user-images.githubusercontent.com/57865250/231754548-eddce714-bb73-4c67-b788-37749a5b4bae.png">
+
+<hr>
+
+## Halaman Detail Tugas - Section Detail Tugas
+
+<img widht="90%" src="https://user-images.githubusercontent.com/57865250/231754761-76905bc7-4414-4b01-82df-632f276cab7c.png">
+
+<hr>
+
+## Halaman Detail Tugas - Section Proggress Tugas
+
+<img widht="90%" src="https://user-images.githubusercontent.com/57865250/231754862-2cbb76b5-893e-4196-a2db-6161b744e9b3.png">
+
+<hr>
+
+## Halaman Detail Tugas - Section Chat
+
+<img widht="90%" src="https://user-images.githubusercontent.com/57865250/231754958-e0ce27c8-c3d2-4180-af74-8a989aac8789.png">
+
+<hr>
+
+## Halaman Tambah Tugas
+
+<img widht="90%" src="https://user-images.githubusercontent.com/57865250/231755085-44b8714c-70a5-4cd7-ba76-510815f16e0c.png">
+
+<hr>
