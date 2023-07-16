@@ -1,6 +1,6 @@
 # AMIK KUMPLIT
 
-### Teguh Iqbal (2142406) - UTS Mobile Programming
+### Teguh Iqbal (2142406) - UAS Mobile Programming
 
 <img width="100%" alt="Group 101" src="https://user-images.githubusercontent.com/57865250/231753244-b8525638-4ebc-4da9-8c3c-349cf4af2baf.png">
 
